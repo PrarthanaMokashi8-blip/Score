@@ -1,8 +1,4 @@
-scores=[]
-print("Enter 4 scores:")
-for i in range(4):
-    s=int(input(f"scores {i+1}: "))
-    scores.append(s)
+scores=[90,64,87,98]
 total=sum(scores)
 average=total/4
 print("\nscores:",scores)
